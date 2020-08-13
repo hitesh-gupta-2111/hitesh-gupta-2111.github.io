@@ -146,8 +146,8 @@
           const listItem = document.createElement('li');
           const listName = document.createElement('em');
           const numbers = document.createElement('span');
-          numbers.textContent = Grades[grade];
-          listName.textContent = grade;
+          numbers.textContent = Grades[grade].trim();
+          listName.textContent = grade.trim();
           listItem.appendChild(listName);
           listItem.appendChild(numbers);
           legend.appendChild(listItem);
