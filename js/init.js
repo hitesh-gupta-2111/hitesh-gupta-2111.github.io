@@ -1,7 +1,2 @@
-(function($){
-  $(function(){
-
-    $('.sidenav').sidenav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+const elems = document.querySelectorAll('select');
+const instances = M.FormSelect.init(elems, {});
