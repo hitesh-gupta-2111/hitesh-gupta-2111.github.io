@@ -86,7 +86,7 @@
   
   <footer>
     <div class="container center-align">
-    <h5>Hosted on <a href="https://github.com/jaynarw/placements-2019-20" target="_blank">Github</a></h5>
+    <h5>Hosted on <a href="https://github.com/jaynarw/grades-iitk" target="_blank">Github</a></h5>
     </div>
 </footer>
 
@@ -100,7 +100,7 @@
       document.getElementById('academic-session').appendChild(option);
     });
   };
-  fetch('https://raw.githubusercontent.com/jaynarw/urban-grades-guide/master/flattenedGrades.json')
+  fetch('https://raw.githubusercontent.com/jaynarw/grades-iitk/master/flattenedGrades.json')
     .then((res) => res.json())
     .then((grades) => {
       flattenedGrades = grades;
@@ -153,7 +153,7 @@
           const listItem = document.createElement('li');
           const listName = document.createElement('em');
           const numbers = document.createElement('span');
-          numbers.textContent = Grades[grade].trim();
+          numbers.textContent = Grades[grade];
           listName.textContent = grade.trim();
           listItem.appendChild(listName);
           listItem.appendChild(numbers);
