@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+</head>
+<body>
+    <h1>Vaccine Registration Form</h1>
+    <form action="thankyou.html" method="GET">
+
+        <input type="text" name="username" id="username" required placeholder="Username"> <br>
+        <input type="password" name="password" id="password" required placeholder="Password"> <br>
+        <input type="email" name="email" id="email" required placeholder="Email"> <br>
+        <h2>Select your age group below: </h2>
+        <select name="age-group-val" id="age">
+            <option value="0-18">0-18</option>
+            <option value="18-45">18-45</option>
+            <option value="45-60">45-60</option>
+            <option value="60+">60+</option>    
+        </select>
+        <br>
+        <br>
+        <label for="Male"> Male </label>
+        <input type="radio" name="gender" id="Male">
+        <br>
+        <label for="Female"> Female </label>
+        <input type="radio" name="gender" id="Female">
+        <br>
+        <label for="Other"> Rather not to say </label>
+        <input type="radio" name="gender" id="Other">
+        <br><br><br>
+        <label for="adhar">Upload a copy of your Aadhar card here</label>
+        <br><br>
+        <input type="file" name="adhar" id="adhar">
+        <br> <br>
+        <label for="intro">Tell us about yourself below:</label> <br> <br>
+        <textarea name="intro" id="intro" cols="30" rows="10" placeholder="Type here"></textarea>
+        <br> <br>
+        <input type="submit" value="sign up!">
+    </form>
+</body>
+</html>
