@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.background_gray{
+    background-color: gray;
+}
+
+.text-colour-red{
+    color: red;
+}
+
+.background_blue{
+    background-color: blue;
+}
+
+.text-colour-yellow{
+    color: yellow;
+}
+
+.font1{
+    font-family: 'Goblin One', cursive;
+}
+
+.font2{
+    font-family: 'Poppins', sans-serif;
+}
