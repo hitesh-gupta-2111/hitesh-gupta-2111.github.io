@@ -1,0 +1,25 @@
+h1{
+    width: 1000px;
+    text-align: center;
+    background-color: gray;
+    color: indigo;
+    margin: 20px auto;
+}
+
+div{
+    border: 2px solid black ;
+    
+    /* text-align: center; */
+    /* background-color: gray; */
+    /* color: indigo; */
+    margin: 20px auto;
+    padding: 20px;
+    width: 960px;
+}
+
+
+
+
+/* div>p{ */
+    
+/* } */
