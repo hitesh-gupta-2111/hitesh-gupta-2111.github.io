@@ -68,3 +68,5 @@ function fill(mydiv)
     winCheck();
     counter++;
 }
+
+// console.log(id);
